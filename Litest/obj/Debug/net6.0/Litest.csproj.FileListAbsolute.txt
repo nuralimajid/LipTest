@@ -1,0 +1,17 @@
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\Litest.exe
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\Litest.deps.json
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\Litest.runtimeconfig.json
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\Litest.dll
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\Litest.pdb
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.AssemblyInfoInputs.cache
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.AssemblyInfo.cs
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.csproj.CoreCompileInputs.cache
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.dll
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\refint\Litest.dll
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.pdb
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.genruntimeconfig.cache
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\ref\Litest.dll
+D:\Project\Project Pribadi\test\Litest\bin\Debug\net6.0\ConsoleTables.dll
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.csproj.AssemblyReference.cache
+D:\Project\Project Pribadi\test\Litest\obj\Debug\net6.0\Litest.csproj.CopyComplete
