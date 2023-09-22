@@ -20,7 +20,7 @@ namespace Litest
                 new Invoice(6, "Tagihan#6", new DateTime(2023, 8, 17),523000),
             };
 
-            Console.WriteLine("Input Payment : ");
+            Console.Write("Input Payment : ");
             int payment = Convert.ToInt32(Console.ReadLine());
 
             if (payment < 0)
