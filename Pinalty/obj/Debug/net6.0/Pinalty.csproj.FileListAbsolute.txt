@@ -1,0 +1,5 @@
+D:\Project\Project Pribadi\test\Liptest\Pinalty\obj\Debug\net6.0\Pinalty.csproj.AssemblyReference.cache
+D:\Project\Project Pribadi\test\Liptest\Pinalty\obj\Debug\net6.0\Pinalty.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Project Pribadi\test\Liptest\Pinalty\obj\Debug\net6.0\Pinalty.AssemblyInfoInputs.cache
+D:\Project\Project Pribadi\test\Liptest\Pinalty\obj\Debug\net6.0\Pinalty.AssemblyInfo.cs
+D:\Project\Project Pribadi\test\Liptest\Pinalty\obj\Debug\net6.0\Pinalty.csproj.CoreCompileInputs.cache

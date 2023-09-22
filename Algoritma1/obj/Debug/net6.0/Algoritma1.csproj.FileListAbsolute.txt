@@ -1,0 +1,14 @@
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\bin\Debug\net6.0\Algoritma1.exe
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\bin\Debug\net6.0\Algoritma1.deps.json
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\bin\Debug\net6.0\Algoritma1.runtimeconfig.json
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\bin\Debug\net6.0\Algoritma1.dll
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\bin\Debug\net6.0\Algoritma1.pdb
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.AssemblyInfoInputs.cache
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.AssemblyInfo.cs
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.csproj.CoreCompileInputs.cache
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.dll
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\refint\Algoritma1.dll
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.pdb
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\Algoritma1.genruntimeconfig.cache
+D:\Project\Project Pribadi\test\Liptest\Algoritma1\obj\Debug\net6.0\ref\Algoritma1.dll

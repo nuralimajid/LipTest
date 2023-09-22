@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Project Pribadi\\test\\Pinalty\\Pinalty.csproj",
+      "projectUniqueName": "D:\\Project\\Project Pribadi\\test\\Liptest\\Pinalty\\Pinalty.csproj",
       "projectName": "Pinalty",
-      "projectPath": "D:\\Project\\Project Pribadi\\test\\Pinalty\\Pinalty.csproj",
+      "projectPath": "D:\\Project\\Project Pribadi\\test\\Liptest\\Pinalty\\Pinalty.csproj",
       "packagesPath": "C:\\Users\\majid\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Project Pribadi\\test\\Pinalty\\obj\\",
+      "outputPath": "D:\\Project\\Project Pribadi\\test\\Liptest\\Pinalty\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\majid\\AppData\\Roaming\\NuGet\\NuGet.Config",

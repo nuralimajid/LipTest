@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVXT1Vj2TwrYUldg7CzzLsdmfpLWgnybgTdcdU9lQp8Rg3KNwbU/s4W3ruXrlM2d3OtLorp7RBA53zntz4eqlA==",
+  "dgSpecHash": "Cl1Q1Mwbf0rUFutGhnQFAln2G45wbkm7HEvQSh106LXcH+Xs6vyt/SkQ8tsDmdcCxktcMUn/XtZnUZX9tCFUNw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Project Pribadi\\test\\Pinalty\\Pinalty.csproj",
+  "projectFilePath": "D:\\Project\\Project Pribadi\\test\\Liptest\\Pinalty\\Pinalty.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\majid\\.nuget\\packages\\consoletables\\2.4.1\\consoletables.2.4.1.nupkg.sha512",
     "C:\\Users\\majid\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

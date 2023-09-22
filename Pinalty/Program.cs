@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Litest
+namespace Pinalty
 {
-    class soalPinalty
+    class Program
     {
-        static void main(string[] args)
+    static void Main(string[] args)
         {
             List<Invoice> invoices = new List<Invoice>()
             {
@@ -44,9 +44,9 @@ namespace Litest
             Console.WriteLine(table);
         }
 
-        static List<Pinalty> PerhitunganPinalty(List<Invoice> invoices, List<Pembayaran> pembayarans, DateTime tempo)
+        static List<Denda> PerhitunganPinalty(List<Invoice> invoices, List<Pembayaran> pembayarans, DateTime tempo)
         {
-            var results = new List<Pinalty>();
+            var results = new List<Denda>();
             foreach (var invoice in invoices)
             {
                 var pokokPembayaran = pembayarans.Where(p => p.invoiceId == invoice.id).ToList();
@@ -65,7 +65,7 @@ namespace Litest
                         totaPenalty += Convert.ToInt32(jumlahPinalty);
                     }
 
-                    results.Add(new Pinalty
+                    results.Add(new Denda
                     {
                         invoiceIds = invoice.id,
                         noPinalty = pokokPembayaran.Count,
@@ -86,7 +86,6 @@ namespace Litest
         public string deskripsi { get; set; }
         public DateTime tglJatuhTempo { get; set; }
         public int jumlah { get; set; }
-        public List<Pembayaran> pembayaran { get; set; } = new List<Pembayaran>();
 
 
         public Invoice(int Id, string Deskripsi, DateTime TglJatuhTempo, int Jumlah)
@@ -113,7 +112,7 @@ namespace Litest
             jmlPembayaran = JmlPembayaran;
         }
     }
-    class Pinalty
+    class Denda
     {
         public int id { get; set; }
         public int invoiceIds { get; set; }
@@ -121,9 +120,9 @@ namespace Litest
         public int tagihanOverDue { get; set; }
         public int hariKeterlambatan { get; set; }
         public int jumlahPinalty { get; set; }
-        public Pinalty(int InvoiceIds, int NoPinalty, int TagihanOverDue, int HariKeterlambatan, int JumlahPinalty)
+        public Denda(int InvoiceIds, int NoPinalty, int TagihanOverDue, int HariKeterlambatan, int JumlahPinalty)
         {
-            id = InvoiceIds;
+            invoiceIds = InvoiceIds;
             noPinalty = NoPinalty;
             tagihanOverDue = TagihanOverDue;
             hariKeterlambatan = HariKeterlambatan;
