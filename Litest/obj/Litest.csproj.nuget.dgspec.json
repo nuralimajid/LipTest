@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Project Pribadi\\test\\Litest\\Litest.csproj": {}
+    "D:\\Project\\Project Pribadi\\test\\Liptest\\Litest\\Litest.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Project Pribadi\\test\\Litest\\Litest.csproj": {
+    "D:\\Project\\Project Pribadi\\test\\Liptest\\Litest\\Litest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Project Pribadi\\test\\Litest\\Litest.csproj",
+        "projectUniqueName": "D:\\Project\\Project Pribadi\\test\\Liptest\\Litest\\Litest.csproj",
         "projectName": "Litest",
-        "projectPath": "D:\\Project\\Project Pribadi\\test\\Litest\\Litest.csproj",
+        "projectPath": "D:\\Project\\Project Pribadi\\test\\Liptest\\Litest\\Litest.csproj",
         "packagesPath": "C:\\Users\\majid\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Project Pribadi\\test\\Litest\\obj\\",
+        "outputPath": "D:\\Project\\Project Pribadi\\test\\Liptest\\Litest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\majid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "ConsoleTables": {
               "target": "Package",
               "version": "[2.4.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

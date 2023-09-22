@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ConsoleTables;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace Litest
 {
@@ -22,10 +23,31 @@ namespace Litest
             Console.WriteLine("Input Payment : ");
             int payment = Convert.ToInt32(Console.ReadLine());
 
+            if (payment < 0)
+            {
+                Console.WriteLine("Nominal pembayaran tidak boleh kurang dari 0.");
+            }
+            DateTime tempo = new DateTime(2023, 3, 25);
+
+            int totalUndue = 0;
+            int totalOverdue = 0;
+            foreach (Invoice invoice in invoices)
+            {
+                if (invoice.tglJatuhTempo > tempo)
+                {
+                    totalUndue += invoice.jumlah;
+                }
+                else
+                {
+                    totalOverdue += invoice.jumlah - invoice.jumlahPembayaran;
+                }
+            }
             List<Invoice> alokasiInvoice = AlokasiPembayaran(invoices, payment);
 
-            //var table = new ConsoleTable("No", "Tagihan", "Tanggal Jatuh Tempo", "Jumlah Tagihan", "Jumlah Pembayaran", "Sisa Tagihan");
-            //table.AddRow("No", "Tagihan", "Tanggal Jatuh Tempo", "Jumlah Tagihan", "Jumlah Pembayaran", "Sisa Tagihan");
+
+            Console.WriteLine("Total Undue : {0}", totalUndue);
+            Console.WriteLine("Total Overdue : {0}", totalOverdue);
+
             foreach (Invoice invoice in alokasiInvoice)
             {
                 int sisaTagihan = invoice.jumlah - invoice.jumlahPembayaran;
@@ -37,16 +59,16 @@ namespace Litest
                 Console.WriteLine($"==================================================");
                 Console.WriteLine();
             }
-            
+
             Console.ReadLine();
+
+            if (payment > 0)
+            {
+                Console.WriteLine($"Nominal pembayaran lebih besar dari total tagihan yang harus di bayarkan. Sisa Pembayaran akan di kembalikan ke pelanggan");
+            }
         }
         static List<Invoice> AlokasiPembayaran(List<Invoice> invoices, int payment)
         {
-            if (payment < 0)
-            {
-                Console.WriteLine("Nominal pembayaran tidak boleh kurang dari 0.");
-            }
-
             invoices.Sort((a, b) => a.tglJatuhTempo.CompareTo(b.tglJatuhTempo));
 
             foreach (Invoice invoice in invoices)
@@ -62,10 +84,6 @@ namespace Litest
                 }
             }
 
-            if (payment > 0)
-            {
-                Console.WriteLine($"Nominal pembayaran lebih besar dari total tagihan yang harus di bayarkan. Sisa Pembayaran akan di kembalikan ke pelanggan");
-            }
             return invoices;
         }
     }
